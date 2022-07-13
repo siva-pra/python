@@ -322,3 +322,22 @@ print(oops.mul(a,b))
 print(oops.dev(a,b))
 print(oops.pow(a,b))
 """
+
+
+##exception handling
+ ##types of error
+ # systax error
+
+"""print("hello"
+
+# logical error
+a=10
+b=11
+c=a-b
+print("sum=",c)
+
+#runtime error
+
+a=int(input("a=")) #a=10
+b=int(input("b=")) #b=0
+print(a/b)"""
