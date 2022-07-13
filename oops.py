@@ -274,9 +274,10 @@ print(obj.b)"""
 ###MODULES
 ##buit-in module
 #os module
-import os
-print(dir(os))
+
+"""import os
+
 print(os.getcwd())
 print(os.listdir())
 print(os.path)
-
+"""
