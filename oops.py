@@ -281,3 +281,44 @@ print(os.getcwd())
 print(os.listdir())
 print(os.path)
 """
+#sys module
+"""
+import sys
+print(sys.path)
+print(sys.maxsize)
+print(sys.maxsize+1)
+print(sys.version)
+print(sys.modules)"""
+
+#datetime module
+
+"""import datetime
+d=datetime.datetime.now()
+print(d)
+a=datetime.date.today()
+print(a)
+d=datetime.time.hour
+print(d)"""
+
+##user defind modules
+"""
+def add(a,b):
+    print("addition=",a+b)
+def sub(a,b):
+    print("substraction=",a-b)
+def mul(a,b):
+    print("multipication=",a*b)
+def dev(a,b):
+    print("devision=",a//b)
+def pow(a,b):
+    print("power=",a**b)
+
+import oops
+a=int(input("enter the input of a:" ))
+b=int(input("enter the input of b:" ))
+print(oops.add(a,b))
+print(oops.sub(a,b))
+print(oops.mul(a,b))
+print(oops.dev(a,b))
+print(oops.pow(a,b))
+"""
